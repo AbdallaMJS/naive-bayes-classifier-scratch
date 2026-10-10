@@ -30,19 +30,28 @@ We calculate:
 
 This project is fully self-contained and requires no external installations.
 
-1. **Clone the repository:**
-   ```bash
-   git clone https://github.com/AbdallaMJS/naive-bayes-classifier-scratch.git
-   cd naive-bayes-classifier-scratch
-   ```
+### 1. Clone the repository
 
-2. **Run the classifier:**
-   ```bash
-   python classifier.py
-   ```
-   The script includes a small synthetic training dataset and will output predictions for several test strings.
+```
+git clone https://github.com/AbdallaMJS/naive-bayes-classifier-scratch.git
+cd naive-bayes-classifier-scratch
+```
+2. Create a virtual environment
+```
+python3 -m venv venv
+```
+3. Activate the virtual environment
+```
+source venv/bin/activate
+```
+After activation, the terminal prompt should usually begin with:
+(venv)
 
-## 🧠 Educational Value & MBZUAI Relevance
+4. Run the classifier
+```
+python classifier.py
+```
+## 🧠 Educational Value
 
 This project is tailored to demonstrate early competency for advanced AI programs. While utilizing libraries like `scikit-learn` is standard in the industry, building fundamental algorithms from scratch proves a candidate understands the underlying mathematics and statistics of Machine Learning, not just the API calls. Understanding Naive Bayes is a crucial stepping stone before moving into complex Deep Learning models for NLP.
 
